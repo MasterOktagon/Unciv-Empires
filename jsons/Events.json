@@ -1,0 +1,27 @@
+[
+    {
+        "name": "City founded",
+        "text":"The expansions into new territory expands your influence and power",
+        "choices":[
+            {
+                "text": "More influence",
+                "triggeredUniques": ["Gain [25] [Culture]"],
+            },
+            //{
+            //    "text": "More production power",
+            //    "triggeredUniques": ["Free [Worker] appears"],
+            //},
+            //{
+            //    "text": "More production power",
+            //    "triggeredUniques": ["Provides a one-time Production bonus to the closest city when cut down"],
+            //},
+            {
+                "text": "More trade power",
+                "triggeredUniques": ["Gain [70] [Gold]"],
+            }
+        ]
+    }
+]
+
+
+

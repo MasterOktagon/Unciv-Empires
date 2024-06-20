@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
+    {
+        "name": "Sword",
+        "movementType": "Land"
+    },
+    {
+        "name": "Archery",
+        "movementType": "Land"
+    },
+    {
+        "name": "Scout",
+        "movementType": "Land"
+    },
+    {
+        "name": "Mounted",
+        "movementType": "Land"
+    },
+
+
+]

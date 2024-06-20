@@ -1,0 +1,118 @@
+[
+    // Worker Units
+    {
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"techRequired": "Agriculture",
+		"uniques": ["Can instantly construct a [{All} {non-[Great]}] improvement<for all movement><[3] times><after which this unit is consumed>", "Automation is a primary action"],
+		"cost": 55
+	},
+	
+	// Special
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	
+	// Scout
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 5,
+		"cost": 25,
+		// "obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions":["Scouting I"],
+		"attackSound": "nonmetalhit"
+	},
+	
+	// Sword
+	{
+		"name": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		// "obsoleteTech": "Metal Casting",
+		// "upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	
+	// Ranged
+	{
+		"name": "Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		// "obsoleteTech": "Construction",
+		// "upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+	
+	// Mounted
+	{
+		"name": "Rider",
+		"unitType": "Mounted",
+		"movement": 6,
+		"requiredTech": "Horseback Riding",
+		"strength": 9,
+		"cost": 65,
+		// "obsoleteTech": "Metal Casting",
+		// "upgradesTo": "Cuirasser",
+		"uniques" : [
+		    "[+20]% to Flank Attack bonuses",
+		    "Consumes [1] Horses"
+		    ],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "The Invention of riding allowed the raising of fast and light riders to control a vastly bigger empire"}
+		]
+	},
+	{
+		"name": "Chariot",
+		"unitType": "Mounted",
+		"movement": 4,
+		"requiredTech": "The Wheel",
+		"strength": 15,
+		"cost": 85,
+		// "obsoleteTech": "Metal Casting",
+		// "upgradesTo": "Knight",
+		"uniques" : [
+		    "Consumes [1] Horses",
+		],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Before riding was invented a lot of cultures used heavy war chariots as their main force"}
+		]
+	},
+	
+	// Siege 
+	{
+		"name": "Ram",
+		"unitType": "Civilian",
+		"movement": 2,
+		"requiredTech": "Construction",
+		"cost": 65,
+		// "obsoleteTech": "Metal Casting",
+		// "upgradesTo": "Knight",
+		"uniques" : ["[+15]% Strength bonus for [Military] units within [1] tiles<vs cities>"],
+        "civilopediaText": [
+			{"text": "One of the first siege machinery was the battering ram. It was used to demolish walls to allow the fighters to encouter in close-combat"}
+		]
+	},
+
+]

@@ -1,0 +1,149 @@
+[
+    // SPECIAL
+    {
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"production": 1,
+		"culture":"1",
+		"uniques": ["Pillaging this improvement yields approximately [+100 Gold, +25 Production]",
+		    "[+1 Gold, +1 Food] from [Fresh water] tiles",
+            "Irremovable", "Unbuildable", "Excluded from map editor", "Removes removable features when built",
+           //"Triggers a [City founded] event"
+           ],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"},
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable", "Excluded from map editor"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
+	
+	// NORMAL
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Can also be built on tiles adjacent to fresh water",
+		//	"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+		//	"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+           "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Irrigation",
+		"uniques": [
+		    "[+1 Food] for each adjacent [Depot]",
+		    // "[+1 Food] <after discovering [Fertilizer]>",
+		    "Can only be built to improve a resource",
+		    "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Camp",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"uniques": [
+		    "[+1 Gold] for each adjacent [Depot]",
+		    "Can only be built to improve a resource",
+		    "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Pasture",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Animal Husbandry",
+		"uniques": [
+		    // "[+1 Food] <after discovering [Fertilizer]>",
+		    "Can only be built to improve a resource",
+		    "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		//"uniques": ["[+1 Production] <after discovering [Scientific Theory]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"uniques": [
+		    "Unbuildable<before adopting [Trade Caravans]><hidden from users>",
+		    "Can be built outside your borders",
+		    "[+1 Production] for each adjacent [Strategic Resource]",
+		    "Pillaging this improvement yields approximately [+20 Gold]",
+		    
+		],
+		"shortcutKey": "T"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": [
+		    // "[+1 Production] <after discovering [Chemistry]>",
+		    "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "M"
+	},
+	
+	
+	
+	// Districts
+	{
+		"name": "Burial mound",
+		"turnsToBuild": 0,
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Forest", "Desert"],
+		"uniques":[
+		    "Great Improvement",
+		    "Irremovable",
+		    "Unbuildable<before adopting [Mound builders]>",
+		    "Unbuildable<for [Worker] units>"
+		    "Pillaging this improvement yields approximately [+25 Gold]",
+		],
+		"faith":3,
+		"culture":1
+	}
+	{
+		"name": "Depot",
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Forest", "Desert"],
+		"uniques":[
+		    "Irremovable",
+		    "Great Improvement",
+		    "Unbuildable<for [Worker] units>",
+		    // "Can be built just outside your borders",
+		    "Constructing it will take over the tiles around it and assign them to your closest city",
+		    "[+1 Food] for each adjacent [Farm]",
+		    "[+1 Food] for each adjacent [Plantation]",
+		    "[+1 Food] for each adjacent [Camp]",
+		    "[+1 Food] for each adjacent [Pasture]",
+		    "[+1 Production] for each adjacent [Mine]",
+		    "[+1 Production] for each adjacent [Lumber Mill]",
+		    "Pillaging this improvement yields approximately [+15 Gold]",
+		],
+	},
+
+    // Removes
+    {
+        "name": "Remove Forest",
+        "techRequired":"Mining"
+    },
+
+]

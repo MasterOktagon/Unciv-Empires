@@ -1,0 +1,84 @@
+[
+    // Scout/Ranger
+    {
+		"name": "Scouting I",
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Scout"],
+        "column": 1,
+        "row": 1
+    },
+    {
+		"name": "Scouting II",
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Scout"],
+		"prerequisites": ["Scouting I"],
+        "column": 2,
+        "row": 1
+    },
+    {
+		"name": "Scouting III",
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Scout"],
+		"prerequisites": ["Scouting II"],
+        "column": 3,
+        "row": 1
+    },
+    
+    // Sword
+    {
+        "name": "Battlecry",
+        "unitTypes": ["Sword"],
+        "uniques": ["[+7]% Strength"],
+        "column": 1,
+        "row": 2
+    },
+    {
+        "name": "Drill I",
+        "unitTypes": ["Sword"],
+        "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+        "column": 1,
+        "row": 3
+    },
+    {
+        "name": "Drill II",
+        "unitTypes": ["Sword"],
+        "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+        "prerequisites":["Drill I"],
+        "column": 2,
+        "row": 3
+    },
+    {
+        "name": "Formation I",
+        "unitTypes": ["Sword"],
+        "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+        "column": 1,
+        "row": 4
+    },
+    {
+        "name": "Formation II",
+        "unitTypes": ["Sword"],
+        "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+        "prerequisites":["Formation I"],
+        "column": 2,
+        "row": 4
+    },
+    
+    // Special
+    {
+		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
+		"uniques": ["All healing effects doubled"]
+	},
+	{
+		"name": "Ignore terrain cost",
+		"uniques": ["Ignores terrain cost"]
+	},
+	{	// For barbarian water units
+		"name": "Unable to pillage tiles",
+		"uniques": ["Unable to pillage tiles"]
+	}
+	{
+	    "name":"Can speed up construction of a building",
+	    "uniques":["Can speed up construction of a building<after which this unit is consumed>"]
+	}
+
+]

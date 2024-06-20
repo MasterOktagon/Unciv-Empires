@@ -1,0 +1,154 @@
+
+[
+    {
+        "name": "Tradition",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 7,
+            "Scientific": 10
+        },
+        "uniques": [
+            "[+3 Culture] [in capital]",
+            "[-25]% Culture cost of natural border growth [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Mound builders",
+                "uniques": [
+                    "Unlocks [Burial Mound] District"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Rapid expansions",
+                "uniques": [
+                    "Free [Settler] appears"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Trade Caravans",
+                "uniques": [
+                    "Unlocks [Trading post]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Tradition Complete",
+                "uniques": [
+                    "[+15]% growth [in all cities]",
+                    //"Provides a [Aqueduct] in your first [4] cities for free"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Government",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "[+1 Culture] [in capital]",
+            "[+1 Happiness] per [5] population [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Principality",
+                "uniques": [
+                    "[+1 Gold] per [5] population [in all cities]",
+                    "[+3] Happiness"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Monarchy",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]"
+                ],
+                "row": 2,
+                "column": 1,
+                "prerequisites":["Principality"]
+            },
+            {
+                "name": "God-king",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
+                ],
+                "row": 3,
+                "column": 1,
+                "prerequisites":["Monarchy"]
+            },
+            {
+                "name": "Aristocracy",
+                "uniques": [
+                    
+                ],
+                "row": 2,
+                "column": 4,
+                "prerequisites":["Principality"]
+            },
+            {
+                "name": "Oligarchy",
+                "uniques": [
+                    "Units in cities cost no Maintenance"
+                ],
+                "row": 2,
+                "column": 6,
+                "prerequisites":["Principality"]
+            },
+            {
+                "name": "Feudal system",
+                "uniques": [
+                    "[+10]% [Production]<when below [4] Happiness>"
+                ],
+                "row": 3,
+                "column": 3,
+                "prerequisites":["Aristocracy" , "Monarchy"]
+            },
+            {
+                "name": "Government Complete",
+                "uniques": [
+                    "[+5 Happiness]",
+                ]
+            }
+        ]
+    },
+    /*{
+        "name": "Civics",
+        "era": "Classical era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "[+1 Culture] [in capital]",
+            "[+1 Happiness] per [5] population [in all cities]"
+        ],
+        "policies": [
+            
+            {
+                "name": "Civics Complete",
+                "uniques": [
+                    "[+5 Happiness]",
+                ]
+            }
+        ]
+    }*/
+]
+
+

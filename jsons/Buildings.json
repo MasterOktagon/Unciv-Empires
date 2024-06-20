@@ -1,0 +1,127 @@
+[
+
+    // DISTRICTS
+    {
+        "name":"DISTRICT - Burial mound",
+        "cost": 80,
+        "uniques":["Can only be built<after adopting [Mound builders]>", "Creates a [Burial mound] improvement on a specific tile",
+        "Only available<with [Districts]>", "Consumes [1] [Districts]"]
+    },
+    {
+        "name":"DISTRICT - Depot",
+        "cost": 80,
+        "uniques":["Creates a [Depot] improvement on a specific tile",
+        // "Can be built just outside your borders",
+        "Only available<with [Districts]>", "Consumes [1] [Districts]"]
+    }
+
+    // Buildings
+    {
+        "name":"Monument",
+        "cost": 35,
+        "culture":2,
+        "maintenance":1,
+    },
+    {
+        "name":"Palace",
+        "uniques":[
+            "Indicates the capital city",
+            "[+10]% growth [in this city]",
+            "Moves to new capital when capital changes",
+            "Destroyed when the city is captured",
+            "Unsellable",
+            "Unbuildable",
+            "Doubles Gold given to enemy if city is captured"
+        ]
+    },
+    {
+        "name":"Granary",
+        "requiredTech":"Irrigation",
+        "maintenance": 1,
+        "food":1,
+        "uniques":[
+            "[+10]% [Food]"
+        ]
+    },
+    /*{
+        "name":"Aqueduct",
+        "requiredTech":"Construction",
+        "maintenance": 2,
+        "uniques":[
+            "[40]% Food is carried over after population increases [in this city]"
+        ]
+    }*/
+
+    // District Bonuses
+    {
+        "name":"Unlock District I",
+        "cost":0,
+        "uniques":[
+            "Cannot be purchased",
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "Provides [1] [Districts]",
+            "Automatically built in all cities where it is buildable"
+        ]
+    },
+    {
+        "name":"Unlock District II",
+        "cost":0,
+        "uniques":[
+            "Requires at least [5] population"
+            "Cannot be purchased",
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "Provides [1] [Districts]",
+            "Automatically built in all cities where it is buildable"
+        ]
+    },
+    {
+        "name":"Unlock District III",
+        "cost":0,
+        "uniques":[
+            "Requires at least [10] population"
+            "Cannot be purchased",
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "Provides [1] [Districts]",
+            "Automatically built in all cities where it is buildable"
+        ]
+    },
+    {
+        "name":"Unlock District IV",
+        "cost":0,
+        "uniques":[
+            "Requires at least [15] population"
+            "Cannot be purchased",
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "Provides [1] [Districts]",
+            "Automatically built in all cities where it is buildable"
+        ]
+    },
+    {
+        "name":"Unlock District V",
+        "cost":0,
+        "uniques":[
+            "Requires at least [20] population"
+            "Cannot be purchased",
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "Provides [1] [Districts]",
+            "Automatically built in all cities where it is buildable"
+        ]
+    },
+    {
+        "name":"Unlock District VI",
+        "cost":0,
+        "uniques":[
+            "Requires at least [25] population"
+            "Cannot be purchased",
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "Provides [1] [Districts]",
+            "Automatically built in all cities where it is buildable"
+        ]
+    }
+]

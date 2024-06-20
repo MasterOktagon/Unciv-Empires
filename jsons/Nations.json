@@ -1,0 +1,72 @@
+[
+    {
+	    "name": "Sweden",
+	    "leaderName": "Karl XII",
+	    "adjective": ["Swedish"],
+	    "innerColor": [255,255,0],
+	    "outerColor": [0,0,255],
+	    "cities": ["Stockholm", "Riga", "Reval", "Uppsala", "Gothenburg", "Karlskrona", "Narva", "Falun", "Dorpat", "Nyen", "Noeteborg"]
+    },
+    {
+	    "name": "Holy Roman Empire",
+	    "leaderName": "Friedrich Barbarossa",
+	    "adjective": ["Impreial"],
+	    "innerColor": [25,25,25],
+	    "outerColor": [128,128,128],
+	    "cities": ["Aachen","Frankfurt","Hamburg","Augsburg","Ulm","Koeln","Metz","Ravensburg","Strassburg","Bern","Rheinfelden","Herford","Offenburg","Isny"]
+    },
+    {
+	    "name": "France",
+	    "leaderName": "Louis XIV",
+	    "adjective": ["French"],
+	    "outerColor": [255,255,255],
+	    "innerColor": [128,128,255],
+	    "cities": ["Versailles", "Paris", "Orleans", "Tours", "Bordeaux", "Lyon", "Rouen", "Chaalons", "Brest", "Port Louis", "Troyes", "Sens"]
+    },
+    {
+	    "name": "England",
+	    "leaderName": "Victoria II",
+	    "adjective": ["English"],
+	    "outerColor": [109, 2, 0],
+		"innerColor": [255, 255, 255],
+	    "cities": ["London", "Birmingham", "Bristol", "Liverpool", "Manchester", "Sheffield", "Leeds", "Leicester", "Bradford", "Coventry", "Nottingham", "Kingston upon Hull"]
+    },
+    {
+	    "name": "Rome",
+	    "leaderName": "Trajan Caesar",
+	    "adjective": ["Roman"],
+	    "outerColor": [70, 0, 118],
+		"innerColor": [240, 199, 0],
+	    "cities": ["Rome", "Neapolis", "Genua", "Arretium", "Ravenna", "Aquileia", "Ostia", "Tarentum", "Caralis", "Syracrusae", "Pisa", "Aberia"]
+    },
+    {
+	    "name": "Byzantium",
+	    "leaderName": "Theodosius II",
+	    "adjective": ["Byzantine"],
+	    "outerColor": [128, 128, 255],
+		"innerColor": [0, 0, 100],
+	    "cities": ["Constantinople", "Nieaea", "Ephesus", "Attalia", "Mesembria", "Thessaloniki", "Trebizond", "Arta", "Tarnovo", "Mystras", "Cappadocia", "Pythion"]
+    },
+    /*{
+	    "name": "The Netherlands",
+		"leaderName": "William of Orange",
+		"adjective": ["Dutch"],
+		"startBias": ["Grassland", "Coast"],
+		"preferredVictoryType": "Cultural",
+		"cities": ["Amsterdam", "Rotterdam", "Utrecht", "Groningen", "Breda", "Nijmegen", "Den Haag", "Haarlem", "Arnhem", "Zutphen",
+		    "Maastricht", "Tilburg", "Eindhoven", "Dordrecht", "Leiden", "'s Hertogenbosch", "Almere",
+		    "Alkmaar", "Brielle", "Vlissingen", "Apeldoorn", "Enschede", "Amersfoort", "Zwolle", "Venlo",
+		    "Uden", "Grave", "Delft", "Gouda", "Nieuwstadt", "Weesp", "Coevorden", "Kerkrade"],
+
+    },*/
+    
+    
+    //Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+		"uniques": ["Can only heal by pillaging", "Excluded from map editor",
+			"[Water] units gain the [Unable to pillage tiles] promotion"]
+	}
+]
